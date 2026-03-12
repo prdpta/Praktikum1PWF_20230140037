@@ -54,7 +54,11 @@
                 <div class="text-[13px] leading-[20px] flex-1 p-6 pb-12 lg:p-20 bg-white dark:bg-[#161615] dark:text-[#EDEDEC] shadow-[inset_0px_0px_0px_1px_rgba(26,26,0,0.16)] dark:shadow-[inset_0px_0px_0px_1px_#fffaed2d] rounded-bl-lg rounded-br-lg lg:rounded-tl-lg lg:rounded-br-none">
                     <h1 class="mb-1 font-medium">Pradipta Pratama Putra</h1>
                     <p class="mb-2 text-[#706f6c] dark:text-[#A1A09A]">20230140037</p>
-                    <h2 class="inline-block mt-2 px-4 py-2 bg-white text-[#1b1b18] dark:bg-[#eeeeec] dark:text-[#1C1C1A] border border-[#e3e3e0] dark:border-[#3E3E3A] rounded-md font-medium">Modul Pertemuan 1</h2>
+                    <h2 class="mb-1 font-medium">Modul Pertemuan 1</h2> 
+                </div>
+            </main>
+        </div>
+
         @if (Route::has('login'))
             <div class="h-14.5 hidden lg:block"></div>
         @endif

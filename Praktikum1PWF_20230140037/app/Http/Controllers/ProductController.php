@@ -14,11 +14,12 @@ class ProductController extends Controller
         return view('product.index', compact('products'));
     }
 
-    // FUNGSI INI WAJIB ADA AGAR TOMBOL MATA BISA JALAN
+    // FUNGSI INI YANG MEMBUAT TOMBOL MATA BISA LIHAT DETAIL
     public function show(Product $product)
-    {
-        return view('product.show', compact('product'));
-    }
+{
+    // Mengarahkan ke file resources/views/product/show.blade.php
+    return view('product.show', compact('product'));
+}
 
     public function create() 
     {
@@ -33,6 +34,14 @@ class ProductController extends Controller
             'quantity' => 'required|integer|min:1',
             'price' => 'required|numeric|min:500',
             'user_id' => 'required|exists:users,id',
+        ], [
+            'name.required' => 'Nama produk wajib diisi.',
+            'name.min' => 'Nama produk minimal harus 3 karakter.',
+            'quantity.required' => 'Jumlah kuantitas wajib diisi.',
+            'quantity.integer' => 'Kuantitas harus berupa angka bulat.',
+            'price.required' => 'Harga produk wajib diisi.',
+            'price.numeric' => 'Harga harus berupa angka yang valid.',
+            'user_id.required' => 'Owner wajib dipilih.',
         ]);
 
         Product::create($request->all());
@@ -47,6 +56,18 @@ class ProductController extends Controller
 
     public function update(Request $request, Product $product) 
     {
+        $request->validate([
+            'name' => 'required|string|min:3|max:255',
+            'quantity' => 'required|integer|min:1',
+            'price' => 'required|numeric|min:500',
+            'user_id' => 'required|exists:users,id',
+        ], [
+            'name.required' => 'Nama produk wajib diisi.',
+            'quantity.required' => 'Jumlah wajib diisi.',
+            'price.required' => 'Harga wajib diisi.',
+            'user_id.required' => 'Owner wajib dipilih.',
+        ]);
+
         $product->update($request->all());
         return redirect()->route('product.index')->with('success', 'Produk diperbarui!');
     }

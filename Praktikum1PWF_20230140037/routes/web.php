@@ -40,14 +40,16 @@ Route::middleware('auth')->group(function () {
     Route::put('/product/{product}', [ProductController::class, 'update'])->name('product.update');
     
     // Proses hapus produk (Method DELETE)
-    Route::delete('/product/{product}', [ProductController::class, 'destroy'])->name('product.delete');
+    // Route::delete('/product/{product}', [ProductController::class, 'destroy'])->name('product.delete');
+    Route::delete('/product/{product}', [ProductController::class, 'destroy'])->name('product.destroy');
 });
 
 // Route bawaan Laravel Breeze untuk Profile User
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
-    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+    // Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+    Route::delete('/product/{product}', [ProductController::class, 'destroy'])->name('product.destroy');
 });
 
 // Memanggil file auth.php (Login, Register, Logout otomatis)

@@ -1,4 +1,4 @@
-<img width="1512" height="982" alt="Screenshot 2026-04-11 at 12 01 43" src="https://github.com/user-attachments/assets/746132cd-9890-4fa7-abdb-0a8f279e3b9d" />**PRAKTIKUM 1**
+<img width="1512" height="982" alt="Screenshot 2026-04-11 at 12 45 26" src="https://github.com/user-attachments/assets/979dcecd-cedb-4890-84c8-9cafc7e6ad09" /><img width="1512" height="982" alt="Screenshot 2026-04-11 at 12 01 43" src="https://github.com/user-attachments/assets/746132cd-9890-4fa7-abdb-0a8f279e3b9d" />**PRAKTIKUM 1**
 1. TAMPILAN AWAL <img width="1512" height="982" alt="Screenshot 2026-02-21 at 09 53 20" src="https://github.com/user-attachments/assets/890f93cd-2ea8-4d5f-b63b-7eca3f16d1dd" />
 
 **PRAKTIKUM 2**
@@ -29,7 +29,6 @@ ADMIN
 7. TAMPILAN JIKA PRODUK SUDAH DIHAPUS <img width="1512" height="982" alt="Screenshot 2026-04-11 at 12 03 52" src="https://github.com/user-attachments/assets/86c98b4d-bd0c-476b-8898-1c532f185086" />
 
 
-
 USER
 1. TAMPILAN PRODUK JIKA ADA <img width="1512" height="982" alt="Screenshot 2026-04-11 at 11 59 58" src="https://github.com/user-attachments/assets/09fb1edb-bb68-4c1a-aa36-b27ecc8e9ecc" />
 2. TAMPILAN JIKA PRODUK TIDAK ADA <img width="1512" height="982" alt="Screenshot 2026-04-11 at 12 05 14" src="https://github.com/user-attachments/assets/7e544ef7-202c-41f9-8e18-678975e08830" />
@@ -37,6 +36,16 @@ USER
 
 DATABASE 
 1. DATABASE PRODUK <img width="1512" height="982" alt="Screenshot 2026-04-11 at 12 02 30" src="https://github.com/user-attachments/assets/622f576a-e425-4a9d-983e-bf4f4fb1b189" />
+
+**PRAKTIKUM 6**
+
+VALIDASI TAMBAH PRODUK
+1. <img width="1512" height="982" alt="Screenshot 2026-04-11 at 12 28 58" src="https://github.com/user-attachments/assets/56e3026b-e571-48b8-9fde-2bebef9f3e74" />
+2. <img width="1512" height="982" alt="Screenshot 2026-04-11 at 12 35 40" src="https://github.com/user-attachments/assets/81dbe726-e259-47e6-bdee-b5296b47a59f" />
+3. <img width="1512" height="982" alt="Screenshot 2026-04-11 at 12 41 30" src="https://github.com/user-attachments/assets/9f7c08bd-ec9e-4e7b-ae4e-3dd7131bb59b" />
+
+VALIDASI EDIT PRODUK
+1. <img width="1512" height="982" alt="Screenshot 2026-04-11 at 12 45 35" src="https://github.com/user-attachments/assets/603ec061-0631-424a-b890-568272b524fe" />
 
 
 

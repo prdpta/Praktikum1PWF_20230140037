@@ -17,6 +17,9 @@
 7. Database ![alt text](database.png)
 8. ERD ![alt text](ERD.png)
 
+**PRAKTIKUM 4**
+1. MEMBUAT PRODUCT CONTROLLER <img width="1512" height="982" alt="Screenshot 2026-04-11 at 14 54 38" src="https://github.com/user-attachments/assets/5cc9a16c-7f3d-41ef-984d-2d12be8543ae" />
+
 **PRAKTIKUM 5**
 
 ADMIN

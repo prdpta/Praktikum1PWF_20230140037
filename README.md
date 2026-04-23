@@ -1,4 +1,4 @@
-<img width="1512" height="982" alt="Screenshot 2026-04-11 at 12 45 26" src="https://github.com/user-attachments/assets/979dcecd-cedb-4890-84c8-9cafc7e6ad09" /><img width="1512" height="982" alt="Screenshot 2026-04-11 at 12 01 43" src="https://github.com/user-attachments/assets/746132cd-9890-4fa7-abdb-0a8f279e3b9d" />**PRAKTIKUM 1**
+**PRAKTIKUM 1**
 1. TAMPILAN AWAL <img width="1512" height="982" alt="Screenshot 2026-02-21 at 09 53 20" src="https://github.com/user-attachments/assets/890f93cd-2ea8-4d5f-b63b-7eca3f16d1dd" />
 
 **PRAKTIKUM 2**

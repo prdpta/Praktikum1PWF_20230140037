@@ -50,6 +50,10 @@ VALIDASI TAMBAH PRODUK
 VALIDASI EDIT PRODUK
 1. <img width="1512" height="982" alt="Screenshot 2026-04-11 at 12 45 35" src="https://github.com/user-attachments/assets/603ec061-0631-424a-b890-568272b524fe" />
 
+**PRAKTIKUM 7**
+1. TAMPILAN TOMBOL EDIT DAN DELETE PADA MENU VIEW (ADMIN) <img width="1512" height="982" alt="Screenshot 2026-04-24 at 15 55 20" src="https://github.com/user-attachments/assets/dca51420-c976-4ab4-bd05-bb726988972b" />
+
+
 
 
 

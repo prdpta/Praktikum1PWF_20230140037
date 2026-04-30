@@ -53,6 +53,29 @@ VALIDASI EDIT PRODUK
 **PRAKTIKUM 7**
 1. TAMPILAN TOMBOL EDIT DAN DELETE PADA MENU VIEW (ADMIN) <img width="1512" height="982" alt="Screenshot 2026-04-24 at 15 55 20" src="https://github.com/user-attachments/assets/dca51420-c976-4ab4-bd05-bb726988972b" />
 
+**UCP 1 Praktikum PWF**
+1. TAMPILAN HALAMAN CATEGORY SEBELUM DITAMBAHKAN <img width="1512" height="982" alt="Screenshot 2026-04-30 at 20 22 17" src="https://github.com/user-attachments/assets/cd30ae66-76d3-4e42-98ee-94376c552fb7" />
+2. TAMPILAN MENAMBAHKAN CATEGORY BARU <img width="1512" height="982" alt="Screenshot 2026-04-30 at 20 22 27" src="https://github.com/user-attachments/assets/4b6e8cc5-5d06-4c9a-baae-8c8e8f31478e" />
+3. TAMPILAN HALAMAN CATEGORY SETELAH DITAMBAHKAN <img width="1512" height="982" alt="Screenshot 2026-04-30 at 20 22 45" src="https://github.com/user-attachments/assets/030da636-acd0-4227-8bdb-c0489d0832f3" />
+4. TAMPILAN MEMILIH CATEGORY SAAT MENAMBAHKAN PRODUCT <img width="1512" height="982" alt="Screenshot 2026-04-30 at 20 27 23" src="https://github.com/user-attachments/assets/4a0c3f58-b55f-430a-961e-d152786b4070" />
+5. TAMPILAN HALAMAN CATEGORY SETELAH PRODUCT DITAMBAHKAN <img width="1512" height="982" alt="Screenshot 2026-04-30 at 20 30 46" src="https://github.com/user-attachments/assets/533966b8-d60b-46ab-8bb5-3da68ade8c1a" />
+6. TAMPILAN HALAMAN EDIT CATEGORY <img width="1512" height="982" alt="Screenshot 2026-04-30 at 20 32 05" src="https://github.com/user-attachments/assets/0ee4c836-b1ed-4de0-b8f1-9ff8a9cbf970" />
+7. TAMPILAN HALAMAN SETELAH EDIT CATEGORY <img width="1512" height="982" alt="Screenshot 2026-04-30 at 20 33 44" src="https://github.com/user-attachments/assets/9391ce05-1e98-4182-aaa9-6e30c96e8aed" />
+8. TAMPILAN SAAT INGIN HAPUS CATEGORY <img width="1512" height="982" alt="Screenshot 2026-04-30 at 20 34 12" src="https://github.com/user-attachments/assets/dde6489b-3db3-495e-928b-05995ec0656a" />
+9. TAMPILAN SAAT CATEGORY BERHASIL DIHAPUS <img width="1512" height="982" alt="Screenshot 2026-04-30 at 20 35 27" src="https://github.com/user-attachments/assets/f0fbd7f4-3b5a-4ce8-bc4e-bc7418470345" />
+10. TAMPILAN DASHBOARD ROLE ADMIN <img width="1512" height="982" alt="Screenshot 2026-04-30 at 20 37 09" src="https://github.com/user-attachments/assets/82f67702-3bca-4521-bfb8-b9785a9c8616" />
+11. TAMPILAN DASHBOARD ROLE USER <img width="1512" height="982" alt="Screenshot 2026-04-30 at 20 38 09" src="https://github.com/user-attachments/assets/8e0ec020-6cd6-4ef4-85c8-70b64514ce67" />
+12. DATABASE CATEGORY <img width="1512" height="982" alt="Screenshot 2026-04-30 at 20 35 03" src="https://github.com/user-attachments/assets/ff9e0498-7a55-4c71-ad71-563920041d8a" />
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -2,16 +2,21 @@
 
 namespace App\Providers;
 
-use Illuminate\Support\Facades\Gate; // Wajib ada
+use Illuminate\Support\Facades\Gate;
 use App\Models\User;
 use Illuminate\Support\ServiceProvider;
 
-class AppServiceProvider extends ServiceProvider {
-    public function register(): void { }
+class AppServiceProvider extends ServiceProvider
+{
+    public function register(): void
+    {
+        //
+    }
 
-    public function boot(): void {
-        // Definisikan Gate untuk Admin
-        Gate::define('manage-product', function (User $user) {
+    public function boot(): void
+    {
+        // Mendefinisikan Gate 'admin' untuk mengecek role di database
+        Gate::define('admin', function (User $user) {
             return $user->role === 'admin';
         });
     }

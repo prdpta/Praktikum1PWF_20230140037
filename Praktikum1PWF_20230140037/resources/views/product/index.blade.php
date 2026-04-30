@@ -2,7 +2,8 @@
     <x-slot name="header">
         <div class="flex justify-between items-center">
             <h2 class="font-semibold text-xl text-gray-200 leading-tight">Product Management</h2>
-            @can('manage-product')
+            {{-- Tombol muncul jika login sebagai admin --}}
+            @can('admin')
                 <a href="{{ route('product.create') }}" class="bg-indigo-600 hover:bg-indigo-500 text-white px-5 py-2.5 rounded-xl text-sm font-bold shadow-lg transition-all duration-200 transform hover:scale-105">
                     + Add New Product
                 </a>

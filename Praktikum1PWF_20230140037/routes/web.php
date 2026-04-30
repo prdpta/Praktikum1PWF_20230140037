@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\CategoryController; 
 use Illuminate\Support\Facades\Route;
 
 // Halaman Utama (Welcome)
@@ -19,38 +20,32 @@ Route::get('/about', function () {
     return view('about');
 })->middleware(['auth'])->name('about');
 
-// Route Group untuk Fitur Product (Wajib Login)
+// Route Group (Semua yang butuh Login ada di sini)
 Route::middleware('auth')->group(function () {
-    // Tampil semua produk
+    
+    // --- FITUR PRODUCT ---
     Route::get('/product', [ProductController::class, 'index'])->name('product.index');
-    
-    // Form tambah produk
     Route::get('/product/create', [ProductController::class, 'create'])->name('product.create');
-    
-    // Proses simpan produk baru
     Route::post('/product', [ProductController::class, 'store'])->name('product.store');
-    
-    // Detail satu produk
     Route::get('/product/{product}', [ProductController::class, 'show'])->name('product.show');
-    
-    // Form edit produk
     Route::get('/product/{product}/edit', [ProductController::class, 'edit'])->name('product.edit');
-    
-    // Proses update produk (Method PUT)
     Route::put('/product/{product}', [ProductController::class, 'update'])->name('product.update');
-    
-    // Proses hapus produk (Method DELETE)
-    // Route::delete('/product/{product}', [ProductController::class, 'destroy'])->name('product.delete');
     Route::delete('/product/{product}', [ProductController::class, 'destroy'])->name('product.destroy');
-});
 
-// Route bawaan Laravel Breeze untuk Profile User
-Route::middleware('auth')->group(function () {
+    // --- FITUR CATEGORY ---
+    // Menggunakan Resource agar mencakup: index, create, store, edit, update, dan destroy
+    Route::get('/category', [CategoryController::class, 'index'])->name('category.index');
+    Route::get('/category/create', [CategoryController::class, 'create'])->name('category.create');
+    Route::post('/category', [CategoryController::class, 'store'])->name('category.store');
+    Route::get('/category/{category}/edit', [CategoryController::class, 'edit'])->name('category.edit'); // Tambahan Edit
+    Route::put('/category/{category}', [CategoryController::class, 'update'])->name('category.update');   // Tambahan Update
+    Route::delete('/category/{category}', [CategoryController::class, 'destroy'])->name('category.destroy'); // Tambahan Delete
+
+    // --- PROFILE USER (Breeze) ---
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
-    // Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
-    Route::delete('/product/{product}', [ProductController::class, 'destroy'])->name('product.destroy');
+    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-// Memanggil file auth.php (Login, Register, Logout otomatis)
+// Memanggil file auth.php (Login, Register, Logout)
 require __DIR__.'/auth.php';

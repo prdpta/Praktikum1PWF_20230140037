@@ -17,6 +17,13 @@
                         {{ __('Product') }}
                     </x-nav-link>
 
+                    {{-- Menu Category Khusus Admin --}}
+                    @can('admin')
+                    <x-nav-link :href="route('category.index')" :active="request()->routeIs('category.*')">
+                        {{ __('Category') }}
+                    </x-nav-link>
+                    @endcan
+
                     <x-nav-link :href="route('about')" :active="request()->routeIs('about')">
                         {{ __('About Me') }}
                     </x-nav-link>
@@ -27,6 +34,7 @@
                 <x-dropdown align="right" width="48">
                     <x-slot name="trigger">
                         <button class="inline-flex items-center px-3 py-2 border border-transparent text-sm leading-4 font-medium rounded-md text-gray-500 dark:text-gray-400 bg-white dark:bg-gray-800 hover:text-gray-700 dark:hover:text-gray-300 focus:outline-none transition ease-in-out duration-150">
+                            {{-- Menampilkan Nama dan Role --}}
                             <div>{{ Auth::user()->name }} ({{ ucfirst(Auth::user()->role) }})</div>
 
                             <div class="ms-1">
@@ -73,6 +81,13 @@
             <x-responsive-nav-link :href="route('product.index')" :active="request()->routeIs('product.*')">
                 {{ __('Product') }}
             </x-responsive-nav-link>
+            
+            @can('admin')
+            <x-responsive-nav-link :href="route('category.index')" :active="request()->routeIs('category.*')">
+                {{ __('Category') }}
+            </x-responsive-nav-link>
+            @endcan
+
             <x-responsive-nav-link :href="route('about')" :active="request()->routeIs('about')">
                 {{ __('About Me') }}
             </x-responsive-nav-link>

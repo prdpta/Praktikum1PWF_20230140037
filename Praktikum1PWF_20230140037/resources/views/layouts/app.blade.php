@@ -40,7 +40,7 @@
 
             <!-- Footer Footer (Optional) -->
             <footer class="py-12 text-center text-slate-500 text-sm border-t border-slate-800/50 mt-12">
-                <p>&copy; {{ date('Y') }} {{ config('app.name') }} - Design by Antigravity</p>
+                <p>&copy; {{ date('Y') }} {{ config('app.name') }} - Design by Pradipta</p>
             </footer>
         </div>
     </body>

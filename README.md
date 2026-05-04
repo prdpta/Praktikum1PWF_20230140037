@@ -67,6 +67,50 @@ VALIDASI EDIT PRODUK
 11. TAMPILAN DASHBOARD ROLE USER <img width="1512" height="982" alt="Screenshot 2026-04-30 at 20 38 09" src="https://github.com/user-attachments/assets/8e0ec020-6cd6-4ef4-85c8-70b64514ce67" />
 12. DATABASE CATEGORY <img width="1512" height="982" alt="Screenshot 2026-04-30 at 20 35 03" src="https://github.com/user-attachments/assets/ff9e0498-7a55-4c71-ad71-563920041d8a" />
 
+**PRAKTIKUM 9**
+
+DOKUMENTASI API
+1. DOKUMENTASI API <img width="1512" height="982" alt="Dokumentasi API" src="https://github.com/user-attachments/assets/fe7ea64a-cce7-4589-bac7-990b9ee87d94" />
+
+ADMIN
+1. LOGIN ADMIN <img width="1512" height="982" alt="Login Admin" src="https://github.com/user-attachments/assets/d9024148-3b14-4521-96dd-eac0c1ea0df5" />
+2. GET ADMIN <img width="1512" height="982" alt="Get Admin" src="https://github.com/user-attachments/assets/11941e03-f6dc-43aa-babe-fe23b3cabf6c" />
+
+USER
+1. LOGIN USER <img width="1512" height="982" alt="Login User" src="https://github.com/user-attachments/assets/68fdf5b2-6cd5-480e-aec0-c65d37e648cb" />
+2. GET USER <img width="1512" height="982" alt="Get User" src="https://github.com/user-attachments/assets/f229c63f-99ad-4d06-86b4-11d11a2b8a49" />
+
+CATEGORY
+1. GET ALL CATEGORY <img width="1512" height="982" alt="Get All Category (GET)" src="https://github.com/user-attachments/assets/78351191-db04-4480-bd34-fa25e4283da9" />
+2. GET CATEGORY BY ID <img width="1512" height="982" alt="Get Category By Id (GET)" src="https://github.com/user-attachments/assets/d8b11198-fa74-475e-a852-9a9d83b57a51" />
+3. POST CATEGORY <img width="1512" height="982" alt="Create Category (POST)" src="https://github.com/user-attachments/assets/00f7ebe4-3496-4261-84f0-7a4afa79d5ef" />
+4. PUT CATEGORY <img width="1512" height="982" alt="Update Category (PUT)" src="https://github.com/user-attachments/assets/28e60234-8c75-42b6-87b7-f2ab8b405ca4" />
+5. DELETE CATEGORY <img width="1512" height="982" alt="Delete Category (DELETE)" src="https://github.com/user-attachments/assets/8bb4aa13-56ec-48b7-8d5e-5c749116f01d" />
+
+PRODUCT
+1. GET ALL PRODUCT <img width="1512" height="982" alt="Get All Products (GET)" src="https://github.com/user-attachments/assets/ab2a046c-9d7d-4488-a678-831ebe65987b" />
+2. GET ALL PRODUCT <img width="1512" height="982" alt="Screenshot 2026-05-04 at 22 49 38" src="https://github.com/user-attachments/assets/67b8e8f9-4a66-46e7-a9a5-aadc556554b3" />
+3. GET PRODUCT BY ID <img width="1512" height="982" alt="Get Product By Id (GET)" src="https://github.com/user-attachments/assets/8c491729-dcb3-4b32-91b1-dc83631ce934" />
+4. POST PRODUCT <img width="1512" height="982" alt="Create Product (POST)" src="https://github.com/user-attachments/assets/734a1c15-5993-493e-a147-8d479a267160" />
+5. PUT PRODUCT <img width="1512" height="982" alt="Update Product (PUT)" src="https://github.com/user-attachments/assets/040ac07c-5331-4a71-9996-d249bece62f2" />
+6. DELETE PRODUCT <img width="1512" height="982" alt="Delete Product (DELETE)" src="https://github.com/user-attachments/assets/865a15b5-467c-48e7-9a49-b2e67955c40c" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
